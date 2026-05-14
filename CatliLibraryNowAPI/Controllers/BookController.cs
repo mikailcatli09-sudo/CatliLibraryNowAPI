@@ -64,7 +64,7 @@ namespace CatliLibraryNowAPI.Controllers
             return NotFound(new { status = "error", data = (object?)null, message = "Book not Found" });
 
             books.Remove(book);
-            return Ok(new { status = "success", date = (object?)null, message = "Books Removed" });
+            return Ok(new { status = "success", date = (object?)null, message = "Books retrieved" });
         }
     }
 }
