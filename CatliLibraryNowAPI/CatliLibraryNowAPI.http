@@ -4,8 +4,3 @@ GET {{CatliLibraryNowAPI_HostAddress}}/todos/
 Accept: application/json
 
 ###
-
-GET {{CatliLibraryNowAPI_HostAddress}}/todos/1
-Accept: application/json
-
-###
